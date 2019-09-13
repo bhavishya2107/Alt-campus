@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -------------------------------------------------------------------- */
+/* mystyle */
+
+h1{
+    margin:50px ;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+/* section1 */
+
+.box-model-solid {
+    margin-left: 50px;
+    display: block;
+    width: 200px;
+    height: 150px;
+    border: 5px black solid;
+    background: maroon;
+    margin-bottom: 75px;
+}
+
+
+/* section2 */
+
+.box-model-double {
+    margin-left: 50px;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    border: 5px black double;
+    background: maroon;
+    margin-bottom: 75px;
+
+}
+
+.box-model-dashed {
+    margin-left: 100px;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    border: 5px black dashed;
+    background: maroon;
+    margin-bottom: 75px;
+
+}
+
+/* section3 */
+
+.box-model-dotted {
+    margin-left: 50px;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    border: 5px black dotted;
+    background: maroon;
+    margin-bottom: 50px;
+}
+
+.box-model-empty {
+    margin-left: 100px;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    background: maroon;
+    margin-bottom: 50px;
+}
+
+/* main-box-model000 */
+
+.main-box-article {
+    border: 20px purple solid;
+    margin-bottom: 10px;
+
+}
+
+.main-box-model {
+    border-top: 15px blue solid;
+    
+    border-left: 15px green solid;
+    border-right: 15px grey solid;
+    border-bottom: 15px yellow solid;
+}
+
+p {
+    background: red;
+    color: #fff;
+    padding: 10px;
+}
+
+.main-model-section {
+    margin-left: 50px;
+    
+    height: 500px;
+    width: 350px;
+}
