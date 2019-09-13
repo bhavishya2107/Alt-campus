@@ -1,0 +1,256 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ---------------------------------------------- */
+
+/* mystyle */
+
+/* header section */
+
+a {
+    float:right; 
+    text-decoration: none;
+    margin-right: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    margin-top: 2px; 
+}
+
+.introspect {
+    margin-left: 30px;
+    color: rgb(216, 58, 58);
+}
+
+.header {
+    background: rgb(36, 34, 34);
+    padding-bottom: 75px;
+    padding-top:10px;
+
+}
+
+/* section1 */
+.section-1 {
+    color: white;
+    background:  rgb(36, 34, 34);
+}
+
+.section-1 h1,h2 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.section-1 h1 {
+    font-size: 30px;
+}
+
+.section-1 h2 {
+    font-size: 24px;
+}
+
+.section-1 p {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-right: 500px;
+
+}
+
+.class-sec-1 {
+    box-sizing: border-box;
+    margin-left: 30px;
+    height: 40px;
+    width: 120px;
+    border: 2px white solid;
+    padding: 13px;
+    background: rgb(36, 34, 34);
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    /* padding-bottom: 100px; */
+
+}
+
+.simple-div {
+       padding-bottom: 75px;
+       background: rgb(36, 34, 34);
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* section2 */
+
+.section-2 h3  {
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+    font-weight: 700;
+
+
+    
+}
+.section-2 {
+    background: white;
+    padding: 25px;
+}
+
+.learn-more {
+    margin-top: 20px;
+    box-sizing: border-box;
+   
+    height: 40px;
+    width: 120px;
+    border: 2px solid red;
+    padding: 13px;
+    background: white;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    font: red;
+    /* padding-bottom: 100px; */
+}
+ /* section33 */
+
+.section-3 {
+    text-align: center;
+    background: lightgrey;
+    padding: 30px;
+  
+}
+
+.section-3 h2 {
+    /* text-align: center; */
+    font-weight: 700;
+    color: red;
+  
+    margin: 0 auto;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid red;
+    background: red;
+    margin:0 auto;
+}
+
+.section-3 p {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom:50px;
+    line-height:1.5;
+    word-spacing: 1px;
+}
+
+.section-3-circle {
+    padding:20px 0;
+}
+
+/* .section-3-h2 {
+    text-align: center;
+} */
+
+/* footer-tag */
+.footer-tag {
+    background: rgb(219, 29, 29);
+    padding-bottom: 5px;
+}
+
+footer h2 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 30px;
+
+}
+h4 {
+    margin-left: 30px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    
+}
+
+.name-input {
+    border: 1px white solid;
+    width: 90%;
+    height: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.msg-input {
+    border: 1px white solid;
+    width: 90%;
+    height: 150px;
+    margin-left: 30px;
+}
+
+.send-msg {
+    margin-top: 20px;
+    box-sizing: border-box;
+    height: 40px;
+    width: 120px;
+    border: 2px solid white;
+    padding: 13px;
+    background: rgb(219, 29, 29);
+    display: inline-block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.footer-copy {
+    margin-top: 50px;
+    margin-left: 30px;
+}
