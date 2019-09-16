@@ -168,9 +168,6 @@ h3 {
     background: grey;
 }
 
-
-
-
 .sm-box-1px {
     box-sizing: border-box;
     display: inline-block;
@@ -181,8 +178,6 @@ h3 {
     border: 1px solid black;
 }
 
-
-
 .sm-box-border {
     box-sizing: border-box;
     display: inline-block;
@@ -192,8 +187,6 @@ h3 {
     background: grey;
     border: 1px solid black;
 }
-
-
 
 .last-div {
     margin-bottom: 150px;
