@@ -183,15 +183,12 @@ small {
     width: 18%;
     height: 300px;
     margin-left: 50px;
-    
-
-    
 }
 
 .img-box img {
     border-radius: 50%;
     padding: 20px 20px;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 .col-1-text h2 {
@@ -202,14 +199,77 @@ small {
     
 }
 
-.col-1-text small {
+/* .col-1-text small {
 
-}
+} */
 
 
 .section-col-1 {
     background: #5385C1;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
+}
+
+.section-col-2 {
+    background: white;
+}
+
+.col-last {
+    width: 50%;
+    padding: 50px;
+}
+
+.col-last img {
+    width: 100%;
+}
+
+.col-last h1 {
+    text-transform: capitalize;
+    font-size: 24px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.col-last p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-right: 5px;
+    padding-bottom: 30px;
+}
+
+.section-col-text h1 {
+    font-size: 42px;
+    padding: 20px 0;
+    color: #A9C1DF;
+    word-spacing: 5px;
+    font-weight: 700;
+}
+
+.goleft {
+    width: 50px;
+    background: #5385C1;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    padding: 4px;
+    margin-right: 460px;
+    font-weight: 700;
+}
+
+hr {
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+nav {
+    padding-bottom: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
 }
 
 
