@@ -56,7 +56,6 @@ table {
     text-align: center;
 }
 
-/* logo- */
 .logo {
     padding: 50px;
 }
@@ -84,14 +83,6 @@ table {
 .margin-fix {
     padding-top: 150px;
 }
-
-/* .margin-fix h1 {
-    font-size: 32px;
-    color: white;
-    font-weight: 700;
-    margin-left: px;
-} */
-
 
 header {
     padding-bottom: 100px;
@@ -127,6 +118,7 @@ small {
     color: #98B6DA;   
     text-transform: capitalize;
 }
+
 /* section-col */
 .col {
     float: left;
@@ -176,7 +168,6 @@ small {
 
 .img-box {
     display: inline-block;
-    /* padding: 0 10px; */
     color: white;
     font-size: 20px;
     outline: 1px white solid;
@@ -198,11 +189,6 @@ small {
     margin-bottom: 10px;
     
 }
-
-/* .col-1-text small {
-
-} */
-
 
 .section-col-1 {
     background: #5385C1;
