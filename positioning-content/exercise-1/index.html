@@ -10,8 +10,8 @@
     <title>positioning-float</title>
 </head>
 
-<body style="width: 1280px;margin: 0 auto">
-    <header>
+<body>
+    <header class="">
         <div class="logo">
             <h1>FLoat</h1>
         </div>
@@ -24,7 +24,7 @@
         </div>
     </header>
     <main>
-        <article class="article">
+        <article class="article clearfix">
             <div class="box column-1">
                 <h1>Heading</h1>
                 <p>
@@ -38,9 +38,19 @@
             </div>
         </article>
     </main>
-    <footer>
-        <p>&copy; All rights reserved.</p>
+    <footer class="footer clearfix">
+        <small class="column-1">&copy; All rights reserved.</small>
+        <nav class="navbar column-2">
+            <a href="#">
+                <i class="fab fa-facebook fa-lg icon-tag"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter fa-lg icon-tag"></i>
+            </a>
+            <a href="#"><i class="fab fa-github fa-lg icon-tag"></i></a>
+        </nav>
     </footer>
+    <script src="https://kit.fontawesome.com/0bd8a4009c.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>positioning-flexible</title>
+</head>
+
+<body>
+    <header class="wrapper clearfix">
+        <div class="left padding-elements">
+            <h1 class="logo color">logo</h1>
+        </div>
+        <nav class="right padding-elements">
+
+            <a class="color" href="#">home</a>
+            <a class="color" href="#">about</a>
+            <a class="color" href="#">contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="wrapper clearfix back-sec2">
+            <article class="art-1 left padding-elements col-width">
+                <img src="data:image/jpeg;base64,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"
+                    alt="alien-ware">
+            </article>
+            <article class="art-2 right padding-elements col-width">
+                <div>
+                    <h1>DELL</h1>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam laborum rem, eius distinctio,
+                        culpa eum exercitationem quos enim excepturi impedit nam natus totam perferendis inventore
+                        aspernatur mollitia vitae eveniet obcaecati
+                        debitis. Suscipit, vitae sint! Illo veniam tenetur rerum harum totam recusandae error, facilis
+                        molestiae fuga placeat numquam sapiente debitis porro officiis sint a dolore dolorum
+                        accusantium, labore vero rem ex reiciendis aperiam
+                        voluptatum. Maxime sint, eos repellat possimus delectus hic commodi quis, doloremque dolore
+                        quidem enim cum harum fugit nihil reiciendis atque sed ducimus ut corrupti, sequi culpa iure
+                        asperiores porro deserunt? Vel consequuntur,
+                        labore unde recusandae facere accusamus ducimus.</p>
+                </div>
+
+
+            </article>
+        </section>
+        <section class="wrapper clearfix back-sec1">
+            <article class="art-1 left padding-elements col-width">
+                <div>
+                    <h1>LENOVO</h1>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam laborum rem, eius distinctio,
+                        culpa eum exercitationem quos enim excepturi impedit nam natus totam perferendis inventore
+                        aspernatur mollitia vitae eveniet obcaecati
+                        debitis. Suscipit, vitae sint! Illo veniam tenetur rerum harum totam recusandae error, facilis
+                        molestiae fuga placeat numquam sapiente debitis porro officiis sint a dolore dolorum
+                        accusantium, labore vero rem ex reiciendis aperiam
+                        voluptatum. Maxime sint, eos repellat possimus delectus hic commodi quis, doloremque dolore
+                        quidem enim cum harum fugit nihil reiciendis atque sed ducimus ut corrupti, sequi culpa iure
+                        asperiores porro deserunt? Vel consequuntur,
+                        labore unde recusandae facere accusamus ducimus.</p>
+                </div>
+            </article>
+            <article class="art-2 right padding-elements col-width">
+                <img src="https://media.4rgos.it/i/Argos/3039061_R_Z001A?w=750&h=440&qlt=70" alt="lenovo-l340">
+            </article>
+        </section>
+
+    </main>
+    <footer class="wrapper clearfix">
+        <div class="left padding-elements color">
+            <small>&copy; All Rights Reserved.</small>
+        </div>
+        <nav class="right padding-elements footer-nav">
+
+            <a href="#">
+                <i class="fab fa-facebook fa-lg icon-tag"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter fa-lg icon-tag"></i>
+            </a>
+            <a href="#"><i class="fab fa-github fa-lg icon-tag"></i></a>
+        </nav>
+    </footer>
+    <script src="https://kit.fontawesome.com/0bd8a4009c.js"></script>
+</body>
+
+</html>

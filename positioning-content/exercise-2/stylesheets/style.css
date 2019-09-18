@@ -132,103 +132,100 @@ table {
 }
 
 
-/* -------------------------------------------- */
+/* ---------------------------------------------------------------------- */
 
 
 /* mystyle */
 
-header .logo {
-    float: left;
-    margin-left: 30px;
-    font-size: 42px;
-    font-weight: 700;
-    vertical-align: middle;
-    font-family: 'Chilanka', cursive;
-}
 
-header {
-    width: 100%;
-    background: purple;
-    padding: 50px 0;
-    color: white;
-}
-
-header .navbar {
-    float: right;
-}
-
-.article-heading h1 {
-    font-size: 32px;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    margin-right: 10px;
-    padding-right: 20px;
-    text-transform: capitalize;
-    font-weight: 700;
+* {
+    box-sizing: border-box;
 }
 
 .wrapper {
-    width: 1280px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
-
-/* columns */
-
-.column-1 {
+.left {
     float: left;
 }
 
-.column-2 {
-    float: right;
+.right {
+    float:right;
 }
 
-.box {
-    box-sizing: border-box;
-    width: 600px;
-    padding: 30px;
-}
+/* 
+clearfix code */
 
-.article {
-    padding-bottom: 20px;
-    background: lightgray;
-}
-
-img {
-    width: 500px;
-    height: 300px;
-}
-
-.box h1 {
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-footer {
-    padding: 50px;
-    background: black;
-    color: white;
-}
-
-.column-1 p {
-    font-size: 24px;
-    line-height: 1.5;
-}
-
-
-/* footerclearfix */
-
-.clearfix:before,
-.clearfix:after {
+.clearfix:before, .clearfix:after {
     content: " ";
     display: table;
 }
-
 .clearfix:after {
-    clear: both;
+    clear:both;
 }
 
+header {
+    padding-bottom: 50px;
+    background: purple; 
+}
+
+.padding-elements {
+    padding: 30px;
+}
+
+.col-width {
+    width: 50%;
+}
+
+footer {
+    padding-bottom: 50px;
+    background: black; 
+}
+
+.color {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.logo {
+    font-size: 32px;
+}
+
+.back-sec2 {
+    background: lightskyblue;
+}
+
+.back-sec1 {
+    background: lightgrey;
+}
+
+
+
+article p {
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+article h1{
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+img {
+    width: 100%;
+}
+
+.footer-nav {
+    display: inline-block;
+}
+
+.footer-nav a {
+    margin-left: 30px;
+    color: white;
+}
