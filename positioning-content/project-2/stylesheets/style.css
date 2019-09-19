@@ -111,7 +111,6 @@ header {
 .margin-fix p {
     color: white;
     font-size: 24px;
-
 }
 
 small {
@@ -161,17 +160,16 @@ small {
 }
 
 .col-1 {
-    display: inline-block;
+
     padding-top: 40px;
     margin-right: 35px;
 }
 
 .img-box {
-    display: inline-block;
     color: white;
     font-size: 20px;
     outline: 1px white solid;
-    width: 18%;
+    width: 20%;
     height: 300px;
     margin-left: 50px;
 
@@ -181,6 +179,7 @@ small {
     border-radius: 50%;
     padding: 20px 20px;
     margin-right: 25px;
+    width: 100%;
 }
 
 .col-1-text h2 {
@@ -251,6 +250,7 @@ hr {
 
 nav {
     padding-bottom: 50px;
+   
 }
 
 nav a {
