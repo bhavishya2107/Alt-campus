@@ -1,0 +1,144 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ----------------------------------------------------------- */
+/* mystyle */
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+.left {
+    float: left;
+	position: relative;
+	padding: 20px;
+    /* z-index: 1; */
+}
+
+.right {
+	float: right;
+	padding: 20px;
+	
+}
+
+.head {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background: purple;
+    z-index: 1;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+/* row1 */
+.row1-image {
+	padding: 30px;
+	float: left;
+	width: 33%;
+}
+
+.para {
+	padding-top: 100px;
+	width: 50%;
+	font-size: 24px;
+	line-height: 1.5;
+}
+
+.width {
+	width: 50%;
+}
+
+img {
+	width: 100%;
+}
+
+.para h1{
+	font-size: 40px;
+	font-weight: 700;
+	padding-bottom: 50px;
+
+}
+.circle {
+	
+	/* position: fixed; */
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: blue;
+	float:right;
+	margin-right: 50px;
+	padding: 10px;
+	z-index: 1;
+}
+
+footer {
+	background: black;
+	padding-bottom: 40px;
+
+	/* color: white; */
+}
+
+nav a {
+	text-decoration: none;
+	word-spacing: 5px;
+	margin-left: 10px;
+	display: inline-block;
+	color: white;
+	text-transform: capitalize;
+}
+
