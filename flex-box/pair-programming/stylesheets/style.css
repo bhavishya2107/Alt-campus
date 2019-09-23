@@ -50,6 +50,8 @@ table {
 .logo {
     font-size: 40px;
     padding: 10px;
+    color: white;
+    font-weight: 700;
 
 }
 
@@ -165,6 +167,7 @@ table {
 
 .section-img {
     background: #FAFAFA;
+    padding-bottom: 50px;
 }
 
 article {
@@ -201,6 +204,33 @@ img {
     line-height: 1.5;
 
 }
-    
+
+.button-2 {
+    /* height: 50px;
+    width: 100px; */
+    background: #FAFAFA;
+    padding: 10px;
+    border-radius: 12px;
+    color: black;
+    font-size: 18px;
+    text-transform: capitalize;
+    border: 1px lightgrey solid;
+}
+
+.last-button {
+   text-align: center;
+   margin-bottom: 30px;
+   padding: 20px;
+   
+   /* width: 200px; */
+   
+}
+
+.copy {
+    text-align: center;
+    padding-bottom: 80px;
+    background: #FAFAFA;
+    padding-top: 80px;
+}
 
 
