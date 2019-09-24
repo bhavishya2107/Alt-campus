@@ -278,3 +278,21 @@ img {
     width: 100%;
 }
 
+.button:hover {
+    color: #3c1053;
+    background:white;
+}
+
+.button-2:hover {
+    background: black;
+    color: white;
+    font-weight: 700;
+}
+
+.message:hover , .name:hover , .email:hover {
+    outline: 1px lightblue solid;
+    /* box-shadow: 1px 1px 1px 0 1 black; */
+}
+
+
+
