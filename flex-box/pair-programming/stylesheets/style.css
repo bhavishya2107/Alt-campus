@@ -294,5 +294,15 @@ img {
     /* box-shadow: 1px 1px 1px 0 1 black; */
 }
 
+nav a:hover {
+    color: #FAFAFA;
+}
+
+.logo:hover {
+    font-weight: 700;
+    /* font-size: 40px; */
+    color: black;
+}
+
 
 
