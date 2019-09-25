@@ -79,7 +79,7 @@ table {
     
 }
 
-.logo img {
+.logo svg {
     width: 140px;
 }
 
@@ -221,25 +221,21 @@ iframe {
 }
 
 .table {
-    margin: 0 auto;
-    /* font-size: 36px; */
-    border: 1px solid black;
-    /* background: blue; */
+  text-align: center;
+  align-items: center;
+  margin-left: 30%;
+  
 }
 
 .section-table {
-    padding: 100px;
+  
 }
 
-table td , th{
+table td , th {
     /* padding-left: 200px; */
     line-height: 3;
-    border: none;
-    border-bottom: 2px black solid;
-    padding: 20px 150px 10px 50px;
+    padding: 20px 100px 10px 50px;
     font-size: 36px;
-  
-
 }
 
 .footer {
@@ -290,6 +286,7 @@ small {
 }
 
 .info {
+    flex-direction: column;
     font-size: 32px;
     color: white;
     margin-left: 30px;
@@ -297,6 +294,86 @@ small {
     padding-top: 4em;
 }
 
+.info h3 {
+    margin-top: 2em;
+}
+
+.links-icon {
+    padding-top: 50px;
+}
+/* w3school */
+
+.dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    font-weight: 700;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: green;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
 @media all and (max-width:768px) {
+
+    .wrapper , .footer , .section-info , .section-table , .section-iframe,.section-2-div , .head
+     {
+        width: 1000px;
+    }
+
+    nav {
+        padding: 100px;
+        display: inline-block;
+    }
+
+    .section-1 {
+        width: 1000px;
+        text-align: center;
+    } 
+
+    .flex {
+        margin: 0 auto;
+    }
+
+    .table {
+        text-align: left;
+        float: left;
+        margin-left: 0;
+        margin-bottom: 30px;
+     
+    }
+
+    .section-table {
+        overflow: hidden;
+        clear: both;
+    }
+
+    form , iframe , table {
+        padding: 20px;
+    }
 
 }
