@@ -222,20 +222,81 @@ iframe {
 
 .table {
     margin: 0 auto;
-    font-size: 36px;
-   margin-left: 20%;
-   background: blue;
-    
+    /* font-size: 36px; */
+    border: 1px solid black;
+    /* background: blue; */
+}
+
+.section-table {
+    padding: 100px;
 }
 
 table td , th{
-    padding-left: 200px;
+    /* padding-left: 200px; */
     line-height: 3;
     border: none;
     border-bottom: 2px black solid;
+    padding: 20px 150px 10px 50px;
+    font-size: 36px;
   
 
 }
 
+.footer {
+    margin: 0 auto;
+    background: #19242E;
+    padding-bottom: 30px;
+}
 
+.footer-div {
+    text-align:center;
+    padding: 50px;
+}
 
+small {
+    font-size: 26px;
+    color: lightgray;
+}
+
+.head-row {
+    background: #1E2639;
+    color: #205571;
+}
+
+.row1 {
+    background: #323C50;
+
+}
+
+.row2 {
+    background: #2B3346;
+}
+
+.table-h1 {
+    font-size: 4em;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
+.section-info {
+    background: #2C3E50;
+}
+
+.info-div {
+    padding-top: 30px;
+    padding-bottom: 200px;
+    line-height: 1.5;
+
+}
+
+.info {
+    font-size: 32px;
+    color: white;
+    margin-left: 30px;
+    width: 30%;
+    padding-top: 4em;
+}
+
+@media all and (max-width:768px) {
+
+}
