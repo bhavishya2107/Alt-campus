@@ -223,12 +223,14 @@ iframe {
 .table {
   text-align: center;
   align-items: center;
-  margin-left: 30%;
+  margin-left: 29.2%;
+  margin-bottom: 5em;
   
 }
 
-.section-table {
-  
+.table-h1 {
+    /* margin: 2em; */
+    padding-top: 1em;
 }
 
 table td , th {
@@ -373,6 +375,10 @@ small {
     }
 
     form , iframe , table {
+        padding: 20px;
+    }
+
+    .para-div p {
         padding: 20px;
     }
 
