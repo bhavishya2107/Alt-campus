@@ -44,6 +44,9 @@ table {
 
 /* ----------------------------------------------------------- */
 /* mystyle */
+body {
+    /* background: purple; */
+}
 * {
     margin: 0;
     padding: 0;
@@ -69,14 +72,11 @@ table {
     margin-left: 30px;
 }
 .nav a {
-    /* margin-left: 30px; */
     color: white;
     font-weight: 700;
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 2px;
-    /* text-transform: uppercase;   */
-    
 }
 
 .logo svg {
@@ -90,9 +90,9 @@ table {
 }
 
 .section-1 {
-    background: #1f4037;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #44A08D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     text-align: center;
     padding-bottom: 100px;
     align-items: center;
@@ -144,7 +144,6 @@ table {
 .gl-box img {
     border-radius: 50%;
     width: 100%;
-    
 }
 
 .bg {
@@ -223,9 +222,12 @@ iframe {
 .table {
   text-align: center;
   align-items: center;
-  margin-left: 29.2%;
+  /* margin-left: 29.2%; */
   margin-bottom: 5em;
   
+}
+.table table {
+    width: 100%;
 }
 
 .table-h1 {
@@ -236,7 +238,7 @@ iframe {
 table td , th {
     /* padding-left: 200px; */
     line-height: 3;
-    padding: 20px 100px 10px 50px;
+    /* padding: 20px 100px 10px 50px; */
     font-size: 36px;
 }
 
@@ -340,25 +342,39 @@ small {
     display: block;
   }
 
-@media all and (max-width:768px) {
 
-    .wrapper , .footer , .section-info , .section-table , .section-iframe,.section-2-div , .head
-     {
-        width: 1000px;
+  /* media-queries */
+
+@media all and (max-width:992px) {
+
+    .wrapper , .footer , .section-info , .section-table , .section-iframe,.section-2-div , .head {
+        /* width: 1000px;  */
+     
+    }
+
+    * {
+        font-size: 10px;
     }
 
     nav {
         padding: 100px;
         display: inline-block;
+        font-size: 10px;
+    }
+    .nav {
+        display: none;
+        font-size: 10px;
     }
 
     .section-1 {
-        width: 1000px;
+        /* width: 1000px; */
         text-align: center;
+        font-size: 10px;
     } 
 
     .flex {
         margin: 0 auto;
+        font-size: 10px;
     }
 
     .table {
@@ -366,20 +382,55 @@ small {
         float: left;
         margin-left: 0;
         margin-bottom: 30px;
+        font-size: 10px;
      
     }
 
-    .section-table {
-        overflow: hidden;
-        clear: both;
+    table > tr ,th {
+        font-size: 10px;
     }
 
     form , iframe , table {
-        padding: 20px;
+        padding: 100px;
+        font-size: 10px;
     }
 
     .para-div p {
         padding: 20px;
+        font-size: 10px;
+    }
+
+    .gallery {
+        display: block;
+        font-size: 10px;
+        /* padding: 0 250px; */
+        
+    }
+
+    .gl-box {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .para-div {
+        display:block;
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        /* margin-left: 25%; */
+    }
+
+    .info-div {
+        display: block;
+        font-size: 10px;
+    }
+
+    .info {
+        margin: 0 auto;
+        padding: 30px;
+        padding-top: 10px;
+        width: 50%;
+        font-size: 10px;
     }
 
 }
